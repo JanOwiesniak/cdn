@@ -402,8 +402,8 @@ CookieConsent settings modal
 
 #cc_div #cm .cc-link,
 #cc_div #cs .cc-link{
-    color: #253b48;
-    border-bottom: 3px dotted #253b48;
+    color: #e56da6;
+    border-bottom: 3px dotted #e56da6;
     display: inline;
     padding-bottom: 0;
     text-decoration: none;
@@ -431,7 +431,7 @@ CookieConsent settings modal
 #cc_div #cm button:first-child,
 #cc_div #cs_buttons button:first-child,
 #cc_div .c_b_toggle input:checked ~ .sc_toggle{
-    background: #253b48;
+    background: #e56da6;
     color: white;
 }
 
