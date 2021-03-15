@@ -6,7 +6,7 @@
     font-style: inherit;
     font-variant: normal;
     font-weight: inherit;
-    font-family: inherit;
+    font-family: AvenirNext, sans-serif;
 	line-height: 1.2;
     font-size: 1em;
     transition: none;
@@ -26,7 +26,7 @@
 #cc_div {
     font-size: 16px;
     font-weight: 400;
-    font-family: -apple-system, sans-serif;
+    font-family: AvenirNext, sans-serif;
 }
 
 #cc_div h1,
@@ -48,7 +48,7 @@
     padding: 1em 1.6em;
     margin-bottom: 0.625em;
     display: inline-block;
-    border-radius: 0.250em;
+    border-radius: 50px;
     cursor: pointer;
     font-size: 0.85em;
     -moz-user-select: none;
@@ -66,7 +66,7 @@
 }
 
 #cc_div #cm{
-    font-family: inherit;
+    font-family: AvenirNext, sans-serif;
     padding: 1.2em 2.2em;
     position: fixed;
     z-index: 100;
@@ -96,16 +96,17 @@
 }
 
 #cc_div #cm_title{
-    color: inherit;
+    color: #e56da6;
     margin: 0 0 0.6em 0;
-    font-family: inherit;
+    font-family: CooperBlack, sans-serif;
     font-size: 1.5em;
 }
 
 #cc_div #cm_text{
+    color: #e56da6;
     margin-bottom: 1.625em;
     font-size: 0.9em;
-    font-family: inherit;
+    font-family: AvenirNext, sans-serif;
     line-height: 1.45em;
 }
 
@@ -209,7 +210,7 @@ CookieConsent settings modal
 
 #cc_div #cs_cont .block_button h2{
     display: table-cell;
-    font-family: inherit;
+    font-family: AvenirNext, sans-serif;
     padding-right: 1em;
     vertical-align: middle;
 }
@@ -402,8 +403,8 @@ CookieConsent settings modal
 
 #cc_div #cm .cc-link,
 #cc_div #cs .cc-link{
-    color: #253b48;
-    border-bottom: 3px dotted #253b48;
+    color: #e56da6;
+    border-bottom: 3px dotted #e56da6;
     display: inline;
     padding-bottom: 0;
     text-decoration: none;
@@ -431,13 +432,13 @@ CookieConsent settings modal
 #cc_div #cm button:first-child,
 #cc_div #cs_buttons button:first-child,
 #cc_div .c_b_toggle input:checked ~ .sc_toggle{
-    background: #253b48;
+    background: #e56da6;
     color: white;
 }
 
 #cc_div #cm button:first-child:hover,
 #cc_div #cs_buttons button:first-child:hover{
-    background: #1d2e38;
+    background: rgba(229, 109, 166, 0.9);
 }
 
 .c_darkmode #cc_div #cm button:first-child,
@@ -469,7 +470,7 @@ CookieConsent settings modal
 	display: table-cell;
     vertical-align: middle;
     font-size: 1em;
-    font-family: inherit;
+    font-family: AvenirNext, sans-serif;
 }
 
 #cc_div #cs_title h1{
@@ -667,7 +668,7 @@ CookieConsent settings modal
 }
 
 #cc_div #cs_blocks table th { 
-	font-family: inherit;
+    font-family: AvenirNext, sans-serif;
     padding: 1.2em 1.2em;
 }
 
